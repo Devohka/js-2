@@ -10,14 +10,14 @@ console.log(k2);
 
 let k3 = "12.45asdwe12";
 k3 = Number.parseInt(k3);
-k3 = Math.round(k3);
-k3 = k3.toFixed(10);
+k3 = Math.floor(k3);
+k3 = k3.toFixed(2);
 console.log(k3);
 
 let k4 = "qwqwe9eewq";
 k4 = Number.parseInt(k4);
-k4 = Math.round(k4);
-k4 = k4.toFixed(11);
+k4 = Math.floor(k4);
+k4 = k4.toFixed(2);
 console.log(k4);
 
 
